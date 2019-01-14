@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'sqlsrv:Server=tcp:db-rep.mysql.database.azure.com,1433;Database=bd_rep',
+	'hostname' => 'db-rep.mysql.database.azure.com',
 	'username' => 'usuario@db-rep',
 	'password' => 'Root1234',
 	'database' => 'bd_rep',

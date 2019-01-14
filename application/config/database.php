@@ -76,10 +76,10 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'db-rep.mysql.database.azure.com,3306',
-	'username' => 'usuario',
+	'username' => 'usuario@db-rep',
 	'password' => 'Root1234',
 	'database' => 'bd_rep',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'dbsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

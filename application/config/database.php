@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'bd-rep.database.windows.net',
+	'hostname' => 'cp:bd-rep.database.windows.net,1433',
 	'username' => 'usuario@db-rep',
 	'password' => 'Root1234',
 	'database' => 'bd_rep',

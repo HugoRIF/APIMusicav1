@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'id8372523_apirest',
-	'password' => 'apirest',
-	'database' => 'id8372523_bd_reproductor',
+	'hostname' => 'apimusica.database.windows.net',
+	'username' => 'root',
+	'password' => 'root',
+	'database' => 'prueba',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

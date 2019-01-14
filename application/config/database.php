@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'asqlsrv:Server=tcp:apimusica.database.windows.net,1433;Database=prueba',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'prueba',
-	'dbdriver' => 'pdo',
+	'hostname' => 'db-rep.mysql.database.azure.com',
+	'username' => 'usuario@db-rep',
+	'password' => 'Root1234',
+	'database' => 'bd_rep',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

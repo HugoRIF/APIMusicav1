@@ -136,10 +136,7 @@ class Usuarios extends REST_Controller {
                 if (!is_null($usuarios)) {
                     #exito query
                     $respuesta=$this->crear_respuesta(200,"Usuarios Encontrados", $usuarios);
-                } else{
-                    #query falla
-                    $respuesta=$this->crear_respuesta(404,"error en la consulta de los usuarios peticion Get sin parametros", []);
-                }
+                } 
                 break;
 
             default:

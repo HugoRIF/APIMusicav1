@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'apimusica.database.windows.net',
+	'hostname' => 'asqlsrv:Server=tcp:apimusica.database.windows.net,1433;Database=prueba',
 	'username' => 'root',
 	'password' => 'root',
 	'database' => 'prueba',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

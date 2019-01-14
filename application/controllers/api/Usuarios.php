@@ -138,7 +138,7 @@ class Usuarios extends REST_Controller {
                     $respuesta=$this->crear_respuesta(200,"Usuarios Encontrados", $usuarios);
                 } else{
                     #query falla
-                    $respuesta=$this->crear_respuesta(404,"error en la consulta de los usuarios", []);
+                    $respuesta=$this->crear_respuesta(404,"error en la consulta de los usuarios peticion Get sin parametros", []);
                 }
                 break;
 

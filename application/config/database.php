@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db-rep.mysql.database.azure.com',
+	'hostname' => 'tcp:bd-rep.database.windows.net,1433',
 	'username' => 'usuario@db-rep',
 	'password' => 'Root1234',
 	'database' => 'bd_rep',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => TRUE,
